@@ -28,7 +28,7 @@ export default function Partners() {
           className="lg:col-span-6 bg-white border border-slate-200/80 rounded-3xl p-8 sm:p-12 flex flex-col justify-between"
         >
           <div>
-            <div className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-4">
+            <div className="text-xs font-bold tracking-wider text-[#A89885] uppercase mb-4">
               NOBODY TELLS YOU THIS...
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl font-normal text-slate-900 leading-tight mb-4">
@@ -41,11 +41,11 @@ export default function Partners() {
               We don&apos;t believe there&apos;s one &quot;best&quot; university. We believe there&apos;s only the one that&apos;s right for you. Your goals. Your budget. Your future.
             </p>
           </div>
-          <div>
+          {/* <div>
             <a href="#about" className="inline-flex items-center gap-2 text-xs font-bold tracking-wider text-slate-900 uppercase hover:underline">
               OUR BELIEF <ArrowRight className="w-3.5 h-3.5" />
             </a>
-          </div>
+          </div> */}
         </motion.div>
 
         {/* Right Course Grid */}
@@ -58,16 +58,16 @@ export default function Partners() {
           <div>
             <div className="flex items-center justify-between mb-6">
               <div>
-                <div className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-1">
+                <div className="text-xs font-bold tracking-wider text-[#A89885] uppercase mb-1">
                   EXPLORE BY COURSE
                 </div>
                 <h3 className="font-serif text-2xl sm:text-3xl font-normal text-slate-900">
                   Find a course. Find your path.
                 </h3>
               </div>
-              <a href="#courses" className="text-xs font-semibold text-slate-600 hover:text-slate-900 flex items-center gap-1">
+              {/* <a href="#courses" className="text-xs font-semibold text-slate-600 hover:text-slate-900 flex items-center gap-1">
                 View all courses <ArrowRight className="w-3 h-3" />
-              </a>
+              </a> */}
             </div>
 
             <div className="grid grid-cols-5 gap-3">

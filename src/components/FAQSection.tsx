@@ -18,7 +18,7 @@ export default function FAQSection() {
     <section id="faqs" className="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       {/* Header Centered */}
       <div className="text-center mb-10">
-        <div className="text-[11px] font-bold tracking-widest text-slate-400 uppercase mb-2">
+        <div className="text-[11px] font-bold tracking-widest text-[#A89885] uppercase mb-2">
           THINGS YOU MIGHT BE WONDERING
         </div>
         <h2 className="font-serif text-3xl sm:text-4xl font-normal text-slate-900">
@@ -33,11 +33,10 @@ export default function FAQSection() {
           return (
             <div
               key={idx}
-              className={`rounded-2xl transition-all duration-200 border ${
-                isOpen
-                  ? "bg-white border-slate-300 shadow-sm"
-                  : "bg-white/60 hover:bg-white border-slate-200/80"
-              }`}
+              className={`rounded-2xl transition-all duration-200 border ${isOpen
+                ? "bg-white border-slate-300 shadow-sm"
+                : "bg-white/60 hover:bg-white border-slate-200/80"
+                }`}
             >
               <button
                 onClick={() => setOpenIdx(isOpen ? null : idx)}
@@ -45,9 +44,8 @@ export default function FAQSection() {
               >
                 <span>{item.q}</span>
                 <div
-                  className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-colors ${
-                    isOpen ? "bg-slate-900 text-white" : "bg-slate-100 text-slate-600"
-                  }`}
+                  className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-colors ${isOpen ? "bg-slate-900 text-white" : "bg-slate-100 text-slate-600"
+                    }`}
                 >
                   {isOpen ? <Minus className="w-3.5 h-3.5" /> : <Plus className="w-3.5 h-3.5" />}
                 </div>
@@ -71,16 +69,7 @@ export default function FAQSection() {
         })}
       </div>
 
-      {/* Centered Footer Link */}
-      <div className="text-center mt-8">
-        <a
-          href="#faqs"
-          className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-slate-900 transition-colors"
-        >
-          <span>View all FAQs</span>
-          <ArrowRight className="w-3.5 h-3.5" />
-        </a>
-      </div>
+
     </section>
   );
 }

@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Stratex - Consulting Agency Website Template",
-  description: "Elevate your business with expert insights, tailored strategies, and unwavering support designed for real growth.",
+  title: "Horizon | Study Abroad Consultants",
+  description: "Horizon is a leading study abroad consultancy that helps students achieve their dream of studying in the best universities across the globe. With expert guidance, personalized support, and a proven track record, we make your journey to success seamless and unforgettable.",
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ export default function Comparison() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left Title & CTA */}
           <div className="lg:col-span-4">
-            <div className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-2">
+            <div className="text-xs font-bold tracking-wider text-[#A89885] uppercase mb-2">
               COMPARE UNIVERSITIES
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl font-normal text-slate-900 leading-tight mb-4">
@@ -20,13 +20,13 @@ export default function Comparison() {
             <p className="text-sm text-slate-500 mb-8">
               Compare fees, rankings, approvals and more.
             </p>
-            <a
+            {/* <a
               href="#compare"
               className="inline-flex items-center gap-2 bg-[#1a1a1a] text-white hover:bg-black text-xs font-medium px-5 py-3 rounded-full transition-all shadow-sm"
             >
               <span>Compare Now</span>
               <ArrowRight className="w-3.5 h-3.5" />
-            </a>
+            </a> */}
           </div>
 
           {/* Center Table */}
@@ -42,13 +42,7 @@ export default function Comparison() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 text-slate-700 font-medium">
-                <tr>
-                  <td className="py-2.5 pr-2 font-semibold text-slate-900">Fees (Per Year)</td>
-                  <td className="py-2.5 px-2 text-center">₹2,20,000</td>
-                  <td className="py-2.5 px-2 text-center">₹1,99,000</td>
-                  <td className="py-2.5 px-2 text-center">₹1,70,000</td>
-                  <td className="py-2.5 px-2 text-center">₹95,000</td>
-                </tr>
+
                 <tr>
                   <td className="py-2.5 pr-2 font-semibold text-slate-900">NAAC Grade</td>
                   <td className="py-2.5 px-2 text-center">A+</td>
@@ -86,11 +80,7 @@ export default function Comparison() {
                 </tr>
               </tbody>
             </table>
-            <div className="mt-4 pt-3 border-t border-slate-100">
-              <a href="#compare" className="text-[11px] font-semibold text-slate-900 flex items-center gap-1 hover:underline">
-                Compare all features <ArrowRight className="w-3 h-3" />
-              </a>
-            </div>
+
           </div>
 
           {/* Right Image */}

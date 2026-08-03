@@ -7,6 +7,12 @@
   }
 }
 
+@theme {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-cormorant: var(--font-cormorant);
+}
+
 .font-serif {
   font-family: var(--font-serif);
 }

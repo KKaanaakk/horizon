@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 export default function ContactFooter() {
   return (
     <footer id="contact" className="pt-16 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-slate-200">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-8 gap-8 mb-12">
         {/* Brand Column */}
         <div className="md:col-span-4 space-y-4">
           <Link href="#" className="font-sans font-extrabold text-2xl tracking-widest text-slate-900 uppercase">
@@ -17,9 +17,9 @@ export default function ContactFooter() {
             Better choices. <br />
             Stronger futures.
           </p>
-          <div className="flex items-center gap-3 text-slate-600 text-xs font-semibold pt-2">
+          {/* <div className="flex items-center gap-3 text-slate-600 text-xs font-semibold pt-2">
             <span>🌐</span> <span>in</span> <span>▶</span> <span>𝕏</span>
-          </div>
+          </div> */}
         </div>
 
         {/* Links Column 1: Explore */}
@@ -49,7 +49,7 @@ export default function ContactFooter() {
         </div>
 
         {/* Links Column 3: Support */}
-        <div className="md:col-span-2">
+        {/* <div className="md:col-span-2">
           <h4 className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-4">
             SUPPORT
           </h4>
@@ -59,10 +59,10 @@ export default function ContactFooter() {
             <li><Link href="#privacy" className="hover:text-slate-900 transition-colors">Privacy Policy</Link></li>
             <li><Link href="#terms" className="hover:text-slate-900 transition-colors">Terms & Conditions</Link></li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Newsletter Column */}
-        <div className="md:col-span-2">
+        {/* <div className="md:col-span-2">
           <h4 className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-4">
             STAY UPDATED
           </h4>
@@ -79,7 +79,7 @@ export default function ContactFooter() {
               <ArrowRight className="w-3 h-3" />
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

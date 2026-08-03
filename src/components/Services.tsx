@@ -62,7 +62,7 @@ export default function Services() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 mb-8">
         <div>
-          <div className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-2">
+          <div className="text-xs font-bold tracking-wider text-[#A89885] uppercase mb-2">
             EXPLORE UNIVERSITIES
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-normal text-slate-900">
@@ -109,16 +109,14 @@ export default function Services() {
                 </div>
               </div>
 
-              <span className="inline-block px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[10px] font-semibold mb-3">
+              <span className="inline-block px-2 py-0.5 rounded bg-[#F9F3EA] border border-[#E8DCCB] text-[#B58A4E] text-[10px] font-bold mb-3">
                 {uni.naac}
               </span>
 
               <p className="text-xs text-slate-600 font-medium mb-1">
                 {uni.courses}
               </p>
-              <div className="text-sm font-bold text-slate-900 mb-1">
-                {uni.fees}
-              </div>
+
               <div className="text-[11px] text-slate-500 flex items-center gap-1 mb-4">
                 <span>🎓</span> {uni.mode}
               </div>

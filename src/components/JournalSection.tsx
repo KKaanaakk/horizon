@@ -31,7 +31,7 @@ export default function JournalSection() {
     <section id="journal" className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <div className="text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-1">
+          <div className="text-[10px] font-bold tracking-widest text-[#A89885] uppercase mb-1">
             THE HORIZON JOURNAL
           </div>
           <h2 className="font-serif text-2xl sm:text-3xl font-normal text-slate-900">
