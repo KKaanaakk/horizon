@@ -105,7 +105,6 @@ export default function Hero() {
                 NAAC A+
               </span>
               <div className="text-[11px] font-medium text-slate-700">MBA</div>
-              <div className="text-xs font-bold text-slate-900">₹2,20,000 / Year</div>
               <div className="text-[10px] text-slate-500 flex items-center gap-1 mt-0.5 mb-2">
                 <span>🎓</span> Online
               </div>

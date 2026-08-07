@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Horizon | Study Abroad Consultants",
+  title: "Horizon",
   description: "Horizon is a leading study abroad consultancy that helps students achieve their dream of studying in the best universities across the globe. With expert guidance, personalized support, and a proven track record, we make your journey to success seamless and unforgettable.",
 };
 
